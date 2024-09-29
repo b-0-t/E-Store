@@ -80,7 +80,6 @@ function App() {
           </PopupHistory>
         </Suspense>
       </main>
-      <footer>as</footer>
     </>
   );
 }

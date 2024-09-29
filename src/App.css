@@ -1,0 +1,101 @@
+
+.scroll {
+  overflow: hidden; /* Hide default scrollbars */
+  position: relative; /* Make sure the container is positioned */
+}
+
+/* Allow scrolling by making content scrollable */
+.scroll-content {
+  overflow: auto; /* Enable scrolling inside the container */
+}
+
+/* Hide scrollbars for WebKit browsers (Chrome, Safari) */
+.scroll-content::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* Hide scrollbars for Firefox */
+.scroll-content {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* Hide scrollbars for Internet Explorer and Edge */
+.scroll-content {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+
+
+
+
+
+ 
+/* body {
+ color: #f8f8f8; 
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #0f020c
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px,1fr ));
+  gap: 40px;
+  padding: 40px;
+  max-width: 1900px;
+  margin: auto;
+}
+
+.card {
+  background-color: #807675;
+  border-radius: 30px;
+  overflow: hidden;
+  font-family: "Poppins";
+  padding: 20px;
+  transition: transform 0.3s;
+
+  
+  
+  
+}
+.card-lower{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.card img {
+  border-radius: 30px;
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+  
+}
+
+.card h3 {
+  font-size: medium 16px;
+
+}
+.card h3 {
+  font-size: medium 16px;
+
+}
+
+
+.home-nav-filter{
+
+  display: flex;
+
+ gap: 30px;
+  padding-top: 10px;
+}
+
+ .card-upper{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+ } */
